@@ -23,7 +23,7 @@ try {
 }
 
 // CORS when consuming Medusa from admin
-const ADMIN_CORS = "http://localhost:7000,http://localhost:7001,http://10.0.0.4:7001,http://0.0.0.0:7001,https://glittery-biscuit-d3f133.netlify.app/a/orders";
+const ADMIN_CORS = "http://localhost:7000,http://localhost:7001,http://10.0.0.4:7001,http://0.0.0.0:7001,https://glittery-biscuit-d3f133.netlify.app";
 // ADMIN_CORS=https://glittery-biscuit-d3f133.netlify.app/
 
 // CORS to avoid issues when consuming Medusa from a client
