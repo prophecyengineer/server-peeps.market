@@ -27,7 +27,7 @@ const ADMIN_CORS = "http://localhost:7000,http://localhost:7001,http://10.0.0.4:
 // ADMIN_CORS=https://glittery-biscuit-d3f133.netlify.app/
 
 // CORS to avoid issues when consuming Medusa from a client
-const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000,http://shop.peeps.market,http://demo.peeps.market";
+const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000,https://shop.peeps.market,https://demo.peeps.market";
 
 // Database URL (here we use a local database called medusa-development)
 const DATABASE_URL =
