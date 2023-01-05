@@ -1,6 +1,9 @@
 {
   "store": {
-    "currencies": ["eur", "usd"]
+    "currencies": [
+      "eur",
+      "usd"
+    ]
   },
   "users": [
     {
@@ -14,18 +17,37 @@
       "name": "EU",
       "currency_code": "eur",
       "tax_rate": 0,
-      "payment_providers": ["manual"],
-      "fulfillment_providers": ["manual"],
-      "countries": ["gb", "de", "dk", "se", "fr", "es", "it"]
+      "payment_providers": [
+        "manual"
+      ],
+      "fulfillment_providers": [
+        "manual"
+      ],
+      "countries": [
+        "gb",
+        "de",
+        "dk",
+        "se",
+        "fr",
+        "es",
+        "it"
+      ]
     },
     {
       "id": "test-region-na",
       "name": "NA",
       "currency_code": "usd",
       "tax_rate": 0,
-      "payment_providers": ["manual"],
-      "fulfillment_providers": ["manual"],
-      "countries": ["us", "ca"]
+      "payment_providers": [
+        "manual"
+      ],
+      "fulfillment_providers": [
+        "manual"
+      ],
+      "countries": [
+        "us",
+        "ca"
+      ]
     }
   ],
   "shipping_options": [
@@ -116,729 +138,24 @@
   ],
   "products": [
     {
-      "title": "Medusa T-Shirt",
+      "title": "Knitted & Chill",
       "subtitle": null,
-      "description": "Reimagine the feeling of a classic T-shirt. With our cotton T-shirts, everyday essentials no longer have to be ordinary.",
-      "handle": "t-shirt",
+      "description": "Made by @LemonLoops on Etsy",
+      "handle": "chillknit",
       "is_giftcard": false,
-      "weight": 400,
+      "weight": 10,
       "images": [
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/tee-black-front.png",
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/tee-black-back.png",
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/tee-white-front.png",
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/tee-white-back.png"
+        "https://uploads-ssl.webflow.com/638f3688a8461565f917a547/63975b7557cbd6c2bd579067_snoopknit.png",
+        "https://uploads-ssl.webflow.com/638f3688a8461565f917a547/63975b83cb940a397416a8e5_snoopknit.jpg",
+        "https://uploads-ssl.webflow.com/638f3688a8461565f917a547/63975b88fc464c1c18416feb_snoopknit2.jpg",
+        "https://uploads-ssl.webflow.com/638f3688a8461565f917a547/63975b8e8250d830be17e737_snoopknit3.jpg"
       ],
       "options": [
         {
           "title": "Size",
-          "values": ["S", "M", "L", "XL"]
-        },
-        {
-          "title": "Color",
-          "values": ["Black", "White"]
-        }
-      ],
-      "variants": [
-        {
-          "title": "S / Black",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 1950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2200
-            }
-          ],
-          "options": [
-            {
-              "value": "S"
-            },
-            {
-              "value": "Black"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "S / White",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 1950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2200
-            }
-          ],
-          "options": [
-            {
-              "value": "S"
-            },
-            {
-              "value": "White"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "M / Black",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 1950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2200
-            }
-          ],
-          "options": [
-            {
-              "value": "M"
-            },
-            {
-              "value": "Black"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "M / White",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 1950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2200
-            }
-          ],
-          "options": [
-            {
-              "value": "M"
-            },
-            {
-              "value": "White"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "L / Black",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 1950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2200
-            }
-          ],
-          "options": [
-            {
-              "value": "L"
-            },
-            {
-              "value": "Black"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "L / White",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 1950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2200
-            }
-          ],
-          "options": [
-            {
-              "value": "L"
-            },
-            {
-              "value": "White"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "XL / Black",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 1950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2200
-            }
-          ],
-          "options": [
-            {
-              "value": "XL"
-            },
-            {
-              "value": "Black"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "XL / White",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 1950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2200
-            }
-          ],
-          "options": [
-            {
-              "value": "XL"
-            },
-            {
-              "value": "White"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        }
-      ]
-    },
-    {
-      "title": "Medusa Sweatshirt",
-      "subtitle": null,
-      "description": "Reimagine the feeling of a classic sweatshirt. With our cotton sweatshirt, everyday essentials no longer have to be ordinary.",
-      "handle": "sweatshirt",
-      "is_giftcard": false,
-      "weight": 400,
-      "images": [
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/sweatshirt-vintage-front.png",
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/sweatshirt-vintage-back.png"
-      ],
-      "options": [
-        {
-          "title": "Size",
-          "values": ["S", "M", "L", "XL"]
-        }
-      ],
-      "variants": [
-        {
-          "title": "S",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 3350
-            }
-          ],
-          "options": [
-            {
-              "value": "S"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "M",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 3350
-            }
-          ],
-          "options": [
-            {
-              "value": "M"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "L",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 3350
-            }
-          ],
-          "options": [
-            {
-              "value": "L"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "XL",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 3350
-            }
-          ],
-          "options": [
-            {
-              "value": "XL"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        }
-      ]
-    },
-    {
-      "title": "Medusa Sweatpants",
-      "subtitle": null,
-      "description": "Reimagine the feeling of classic sweatpants. With our cotton sweatpants, everyday essentials no longer have to be ordinary.",
-      "handle": "sweatpants",
-      "is_giftcard": false,
-      "weight": 400,
-      "images": [
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/sweatpants-gray-front.png",
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/sweatpants-gray-back.png"
-      ],
-      "options": [
-        {
-          "title": "Size",
-          "values": ["S", "M", "L", "XL"]
-        }
-      ],
-      "variants": [
-        {
-          "title": "S",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 3350
-            }
-          ],
-          "options": [
-            {
-              "value": "S"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "M",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 3350
-            }
-          ],
-          "options": [
-            {
-              "value": "M"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "L",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 3350
-            }
-          ],
-          "options": [
-            {
-              "value": "L"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "XL",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2950
-            },
-            {
-              "currency_code": "usd",
-              "amount": 3350
-            }
-          ],
-          "options": [
-            {
-              "value": "XL"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        }
-      ]
-    },
-    {
-      "title": "Medusa Shorts",
-      "subtitle": null,
-      "description": "Reimagine the feeling of classic shorts. With our cotton shorts, everyday essentials no longer have to be ordinary.",
-      "handle": "shorts",
-      "is_giftcard": false,
-      "weight": 400,
-      "images": [
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/shorts-vintage-front.png",
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/shorts-vintage-back.png"
-      ],
-      "options": [
-        {
-          "title": "Size",
-          "values": ["S", "M", "L", "XL"]
-        }
-      ],
-      "variants": [
-        {
-          "title": "S",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2500
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2850
-            }
-          ],
-          "options": [
-            {
-              "value": "S"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "M",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2500
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2850
-            }
-          ],
-          "options": [
-            {
-              "value": "M"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "L",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2500
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2850
-            }
-          ],
-          "options": [
-            {
-              "value": "L"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "XL",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 2500
-            },
-            {
-              "currency_code": "usd",
-              "amount": 2850
-            }
-          ],
-          "options": [
-            {
-              "value": "XL"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        }
-      ]
-    },
-    {
-      "title": "Medusa Hoodie",
-      "subtitle": null,
-      "description": "Reimagine the feeling of a classic hoodie. With our cotton hoodie, everyday essentials no longer have to be ordinary.",
-      "handle": "hoodie",
-      "is_giftcard": false,
-      "weight": 400,
-      "images": [
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/black_hoodie_front.png",
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/black_hoodie_back.png"
-      ],
-      "options": [
-        {
-          "title": "Size",
-          "values": ["S", "M", "L", "XL"]
-        }
-      ],
-      "variants": [
-        {
-          "title": "S",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 3650
-            },
-            {
-              "currency_code": "usd",
-              "amount": 4150
-            }
-          ],
-          "options": [
-            {
-              "value": "S"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "M",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 3650
-            },
-            {
-              "currency_code": "usd",
-              "amount": 4150
-            }
-          ],
-          "options": [
-            {
-              "value": "M"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "L",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 3650
-            },
-            {
-              "currency_code": "usd",
-              "amount": 4150
-            }
-          ],
-          "options": [
-            {
-              "value": "L"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "XL",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 3650
-            },
-            {
-              "currency_code": "usd",
-              "amount": 4150
-            }
-          ],
-          "options": [
-            {
-              "value": "XL"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        }
-      ]
-    },
-    {
-      "title": "Medusa Longsleeve",
-      "subtitle": null,
-      "description": "Reimagine the feeling of a classic longsleeve. With our cotton longsleeve, everyday essentials no longer have to be ordinary.",
-      "handle": "longsleeve",
-      "is_giftcard": false,
-      "weight": 400,
-      "images": [
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/ls-black-front.png",
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/ls-black-back.png"
-      ],
-      "options": [
-        {
-          "title": "Size",
-          "values": ["S", "M", "L", "XL"]
-        }
-      ],
-      "variants": [
-        {
-          "title": "S",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 3650
-            },
-            {
-              "currency_code": "usd",
-              "amount": 4150
-            }
-          ],
-          "options": [
-            {
-              "value": "S"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "M",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 3650
-            },
-            {
-              "currency_code": "usd",
-              "amount": 4150
-            }
-          ],
-          "options": [
-            {
-              "value": "M"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "L",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 3650
-            },
-            {
-              "currency_code": "usd",
-              "amount": 4150
-            }
-          ],
-          "options": [
-            {
-              "value": "L"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        },
-        {
-          "title": "XL",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 3650
-            },
-            {
-              "currency_code": "usd",
-              "amount": 4150
-            }
-          ],
-          "options": [
-            {
-              "value": "XL"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        }
-      ]
-    },
-    {
-      "title": "Medusa Coffee Mug",
-      "subtitle": null,
-      "description": "Every programmer's best friend.",
-      "handle": "coffee-mug",
-      "is_giftcard": false,
-      "weight": 400,
-      "images": [
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/coffee-mug.png"
-      ],
-      "options": [
-        {
-          "title": "Size",
-          "values": ["One Size"]
+          "values": [
+            "One Size"
+          ]
         }
       ],
       "variants": [
@@ -847,11 +164,4174 @@
           "prices": [
             {
               "currency_code": "eur",
-              "amount": 1000
+              "amount": 7150
             },
             {
               "currency_code": "usd",
-              "amount": 1200
+              "amount": 7150
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "is the real dogg hoodie",
+      "subtitle": null,
+      "description": "Made by @TradeBoxx on Etsy.",
+      "handle": "hoodiee",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://i.etsystatic.com/37952504/r/il/30d695/4470478636/il_1588xN.4470478636_oj9n.jpg",
+        "https://i.etsystatic.com/37952504/r/il/341fdc/4470477274/il_1588xN.4470477274_bos4.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "S",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 5662
+            },
+            {
+              "currency_code": "usd",
+              "amount": 5662
+            }
+          ],
+          "options": [
+            {
+              "value": "S"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "M",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 6950
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7150
+            }
+          ],
+          "options": [
+            {
+              "value": "M"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "L",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 6950
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7150
+            }
+          ],
+          "options": [
+            {
+              "value": "L"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "XL",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 6950
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7150
+            }
+          ],
+          "options": [
+            {
+              "value": "XL"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Action figure",
+      "subtitle": null,
+      "description": "Made by @TheCraftsOfUniq on Etsy",
+      "handle": "action",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://uploads-ssl.webflow.com/638f3688a8461565f917a547/638f508472902fc51743fd35_Screenshot%202022-12-06%20at%2015.22.40.png",
+        "https://uploads-ssl.webflow.com/638f3688a8461565f917a547/638f5080b70a09b87bf8c966_Screenshot%202022-12-06%20at%2015.23.55.png",
+        "https://uploads-ssl.webflow.com/638f3688a8461565f917a547/638f5090bb7d4d4bf7ff3fe1_Screenshot%202022-12-06%20at%2015.24.11.png"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 9900
+            },
+            {
+              "currency_code": "usd",
+              "amount": 9900
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Car Air Freshner - Black Ice Scent",
+      "subtitle": null,
+      "description": "Made by @IceFlameAU on Etsy",
+      "handle": "airfreshner",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://uploads-ssl.webflow.com/638f3688a8461565f917a547/638f51e321f3968d945cd801_Screenshot%202022-12-06%20at%2015.29.05.png",
+        "https://uploads-ssl.webflow.com/638f3688a8461565f917a547/638f51eb26ffa3fdc501986b_Screenshot%202022-12-06%20at%2015.29.32.png"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 400
+            },
+            {
+              "currency_code": "usd",
+              "amount": 500
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "If the ride is more fly, then you must buy.",
+      "subtitle": null,
+      "description": "Made by @SSFineArt on Etsy",
+      "handle": "oillow",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://uploads-ssl.webflow.com/638f3688a8461565f917a547/638f50fa03c5478babc72465_Screenshot%202022-12-06%20at%2015.25.40.png",
+        "https://uploads-ssl.webflow.com/638f3688a8461565f917a547/638f512a88ef187b03d06b40_Screenshot%202022-12-06%20at%2015.26.19.png",
+        "https://uploads-ssl.webflow.com/638f3688a8461565f917a547/638f512a0bf8b0b755550d37_Screenshot%202022-12-06%20at%2015.26.27.png",
+        "https://uploads-ssl.webflow.com/638f3688a8461565f917a547/638f512ab6ba5425756aef8f_Screenshot%202022-12-06%20at%2015.26.32.png"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 9000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 9000
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Roller Cone",
+      "subtitle": null,
+      "description": "Made by @SweetMaryJaneDesigns on Etsy",
+      "handle": "rolling",
+      "is_giftcard": false,
+      "weight": 100,
+      "images": [
+        "https://i.etsystatic.com/37611273/r/il/962a30/4218685460/il_1588xN.4218685460_4b17.jpg",
+        "https://i.etsystatic.com/37611273/r/il/a0c05f/4218685450/il_1588xN.4218685450_tw4i.jpg",
+        "https://i.etsystatic.com/37611273/r/il/be0b5b/4218685458/il_1588xN.4218685458_3vr1.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 900
+            },
+            {
+              "currency_code": "usd",
+              "amount": 900
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Ashtray",
+      "subtitle": null,
+      "description": "Made by @SweetMaryJaneDesigns on Etsy",
+      "handle": "ashtray",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://i.etsystatic.com/37611273/r/il/b54bfc/4235036575/il_1588xN.4235036575_pdq7.jpg",
+        "https://i.etsystatic.com/37611273/r/il/64117c/4235036571/il_1588xN.4235036571_39oa.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 2500
+            },
+            {
+              "currency_code": "usd",
+              "amount": 2500
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Headphone Stand",
+      "subtitle": null,
+      "description": "Made by @AngledDesigns",
+      "handle": "headphones",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://uploads-ssl.webflow.com/638f3688a8461565f917a547/638f3d215022a50f6c2f9f5a_Screenshot%202022-12-06%20at%2014.01.05.png",
+        "https://uploads-ssl.webflow.com/638f3688a8461565f917a547/638f3d437b291e0a1588af3e_Screenshot%202022-12-06%20at%2014.01.52.png",
+        "https://uploads-ssl.webflow.com/638f3688a8461565f917a547/638f3d605022a521a12fa50a_Screenshot%202022-12-06%20at%2014.02.21.png"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7200
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7400
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "3DSnoop",
+      "subtitle": null,
+      "description": "Made by @scrazyone1",
+      "handle": "threedee",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://bafybeiblvakyom45obvnbfskufjldkvepnttoiiy3m5gpdoh36tjalumrq.ipfs.w3s.link/Screenshot_2022-12-27_at_19.21.23_76.png",
+        "https://bafybeif4bthcl6lpvktqpxxgec6v5cyqn2o3cnkam6d4qc56ongiid3pne.ipfs.w3s.link/Screenshot_2022-12-27_at_19.21.35_76.png"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 4230
+            },
+            {
+              "currency_code": "usd",
+              "amount": 4420
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Bunting",
+      "subtitle": null,
+      "description": "Made by @TabithaLilyArt",
+      "handle": "bunting",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://uploads-ssl.webflow.com/638f3688a8461565f917a547/638f3e6b0879823508020235_Screenshot%202022-12-06%20at%2014.06.46.png",
+        "https://uploads-ssl.webflow.com/638f3688a8461565f917a547/638f3e7b21f396e7355b6f65_Screenshot%202022-12-06%20at%2014.07.03.png"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 1230
+            },
+            {
+              "currency_code": "usd",
+              "amount": 1420
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Comic Vintage Style Tee",
+      "subtitle": null,
+      "description": "Made by @808sStore on Etsy.",
+      "handle": "comictee",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://i.etsystatic.com/31564182/r/il/afcb38/4286411985/il_1588xN.4286411985_5sgu.jpg",
+        "https://i.etsystatic.com/31564182/r/il/9b2477/4014548272/il_1588xN.4014548272_iwpy.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "S",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3019
+            },
+            {
+              "currency_code": "usd",
+              "amount": 3019
+            }
+          ],
+          "options": [
+            {
+              "value": "S"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "M",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 6950
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7150
+            }
+          ],
+          "options": [
+            {
+              "value": "M"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "L",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 6950
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7150
+            }
+          ],
+          "options": [
+            {
+              "value": "L"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "XL",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 6950
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7150
+            }
+          ],
+          "options": [
+            {
+              "value": "XL"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Nuthin' But a G Thing",
+      "subtitle": null,
+      "description": "Made by @808sStore on Etsy.",
+      "handle": "comicteegthing",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://i.etsystatic.com/31564182/r/il/414cfb/3853502758/il_1588xN.3853502758_s3m1.jpg",
+        "https://i.etsystatic.com/31564182/r/il/25ffb6/3853502824/il_1588xN.3853502824_lfww.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "S",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3019
+            },
+            {
+              "currency_code": "usd",
+              "amount": 3019
+            }
+          ],
+          "options": [
+            {
+              "value": "S"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "M",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 6950
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7150
+            }
+          ],
+          "options": [
+            {
+              "value": "M"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "L",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 6950
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7150
+            }
+          ],
+          "options": [
+            {
+              "value": "L"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "XL",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 6950
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7150
+            }
+          ],
+          "options": [
+            {
+              "value": "XL"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Vintage 90's Style T-Shirt",
+      "subtitle": null,
+      "description": "Made by @808sStore on Etsy.",
+      "handle": "comicvintage",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://i.etsystatic.com/31564182/r/il/02b416/4186876310/il_1588xN.4186876310_gpwz.jpg",
+        "https://i.etsystatic.com/31564182/r/il/a1c023/4186876248/il_1588xN.4186876248_cjzr.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "S",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3019
+            },
+            {
+              "currency_code": "usd",
+              "amount": 3019
+            }
+          ],
+          "options": [
+            {
+              "value": "S"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "M",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 6950
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7150
+            }
+          ],
+          "options": [
+            {
+              "value": "M"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "L",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 6950
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7150
+            }
+          ],
+          "options": [
+            {
+              "value": "L"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "XL",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 6950
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7150
+            }
+          ],
+          "options": [
+            {
+              "value": "XL"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Sparkly Meme Cushion",
+      "subtitle": null,
+      "description": "Made by @Bluprints3D",
+      "handle": "sparkly",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://i.etsystatic.com/20035847/r/il/ccadd6/4311738182/il_1588xN.4311738182_5tiw.jpg",
+        "https://i.etsystatic.com/20035847/r/il/a93ead/4359131409/il_1588xN.4359131409_amb3.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 2000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 2000
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Custom Patch",
+      "subtitle": null,
+      "description": "Made by @UnclePetesPatches on Etsy",
+      "handle": "patch",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/37073091/r/il/240a6d/4504446659/il_1588xN.4504446659_igw3.jpg",
+        "https://i.etsystatic.com/37073091/r/il/a7b22a/4504446009/il_1588xN.4504446009_dhwo.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 2070
+            },
+            {
+              "currency_code": "usd",
+              "amount": 2070
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "The Dog Father",
+      "subtitle": null,
+      "description": "Made by @rosiegirllondon on Etsy",
+      "handle": "doll",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/6436472/r/il/15ba2f/1471469323/il_1588xN.1471469323_ohx6.jpg",
+        "https://i.etsystatic.com/6436472/r/il/d6a2a6/1888966004/il_1588xN.1888966004_but6.jpg",
+        "https://i.etsystatic.com/6436472/r/il/def48d/1424209578/il_1588xN.1424209578_c0mi.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 6920
+            },
+            {
+              "currency_code": "usd",
+              "amount": 6920
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": " Rap Doggy Dogg Tray",
+      "subtitle": null,
+      "description": "Made by @Dank420Products on Etsy",
+      "handle": "rolltray",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/23232950/r/il/be65e9/3768021927/il_1588xN.3768021927_81jb.jpg",
+        "https://i.etsystatic.com/23232950/r/il/af6c31/3768021491/il_1588xN.3768021491_l78s.jpg",
+        "https://i.etsystatic.com/23232950/r/il/17d6f6/4442223468/il_1588xN.4442223468_he2y.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 620
+            },
+            {
+              "currency_code": "usd",
+              "amount": 620
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Nuthin' But A Tea Thang",
+      "subtitle": null,
+      "description": "Made by @Susieandfriends on Etsy",
+      "handle": "tea",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/22687809/r/il/b979c1/4406426357/il_1588xN.4406426357_m3uf.jpg",
+        "https://i.etsystatic.com/22687809/r/il/d9116d/4359043212/il_1588xN.4359043212_pacn.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 2117
+            },
+            {
+              "currency_code": "usd",
+              "amount": 2117
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Resin Rolling Tray",
+      "subtitle": null,
+      "description": "Made by @WendyDiazCreations on Etsy",
+      "handle": "trayresin",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/13702721/r/il/79e7aa/4380335886/il_1588xN.4380335886_2duo.jpg",
+        "https://i.etsystatic.com/13702721/r/il/e98696/4427731775/il_1588xN.4427731775_a7c2.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 8100
+            },
+            {
+              "currency_code": "usd",
+              "amount": 8100
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "My Dogg",
+      "subtitle": null,
+      "description": "Made by @GenerationalImages on Etsy",
+      "handle": "stretchcanvas",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/39328772/r/il/a50f0d/4456057515/il_1588xN.4456057515_rsx6.jpg",
+        "https://i.etsystatic.com/39328772/r/il/9dc859/4408673378/il_1588xN.4408673378_q3uj.jpg",
+        "https://i.etsystatic.com/39328772/r/il/bc951c/4456057323/il_1588xN.4456057323_b3kr.jpgg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 8598
+            },
+            {
+              "currency_code": "usd",
+              "amount": 8598
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "News & Scribbles",
+      "subtitle": null,
+      "description": "Made by @SiouxieEMart on Etsy",
+      "handle": "newsscribbles",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/23795305/r/il/000e54/4017431480/il_1588xN.4017431480_7zp0.jpg",
+        "https://i.etsystatic.com/23795305/r/il/345e61/4065081677/il_1588xN.4065081677_b2h2.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 6682
+            },
+            {
+              "currency_code": "usd",
+              "amount": 6682
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "I wanna thank me...",
+      "subtitle": null,
+      "description": "Made by @YoMayoDesigns on Etsy",
+      "handle": "notebook",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/34542348/r/il/57c7eb/3802030575/il_1588xN.3802030575_69qc.jpg",
+        "https://i.etsystatic.com/34542348/r/il/64e9c7/3754440894/il_1588xN.3754440894_ap03.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 1341
+            },
+            {
+              "currency_code": "usd",
+              "amount": 1341
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Acid Washed LF inspired Top",
+      "subtitle": null,
+      "description": "Made by @badbatchapparel on Etsy",
+      "handle": "acidwash",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/12777892/r/il/62b96c/3632189835/il_1588xN.3632189835_442y.jpg",
+        "https://i.etsystatic.com/12777892/r/il/04c70a/3584571010/il_1588xN.3584571010_mrm1.jpg",
+        "https://i.etsystatic.com/12777892/r/il/ecc0cd/3584571212/il_1588xN.3584571212_pir3.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 5400
+            },
+            {
+              "currency_code": "usd",
+              "amount": 5400
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Snooper Shirt",
+      "subtitle": null,
+      "description": "Made by @FitiTees on Etsy",
+      "handle": "snooper",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/32583833/r/il/4cb8cf/3493827453/il_1588xN.3493827453_go7p.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 1500
+            },
+            {
+              "currency_code": "usd",
+              "amount": 1500
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 1,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Blaze it ",
+      "subtitle": null,
+      "description": "Made by @PopStandLLC on Etsy",
+      "handle": "blazeit",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/38519573/r/il/2a900e/4454334831/il_1588xN.4454334831_grij.jpg",
+        "https://i.etsystatic.com/38519573/r/il/ecc522/4406879074/il_1588xN.4406879074_6lkt.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 2915
+            },
+            {
+              "currency_code": "usd",
+              "amount": 2915
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 1,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Infamous",
+      "subtitle": null,
+      "description": "Made by @PopStandLLC on Etsy",
+      "handle": "infamous",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/38519573/r/il/34be2d/4493587551/il_1588xN.4493587551_lh51.jpg",
+        "https://i.etsystatic.com/38519573/r/il/c04c21/4441776834/il_1588xN.4441776834_a8wk.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 2915
+            },
+            {
+              "currency_code": "usd",
+              "amount": 2915
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 1,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "legend",
+      "subtitle": null,
+      "description": "Made by @PopStandLLC on Etsy",
+      "handle": "legend",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/38519573/r/il/3c3b78/4519680793/il_1588xN.4519680793_h6pi.jpg",
+        "https://i.etsystatic.com/38519573/r/il/10362f/4460699762/il_1588xN.4460699762_sslx.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 4859
+            },
+            {
+              "currency_code": "usd",
+              "amount": 4859
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 1,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Lace Up LF inspired Top",
+      "subtitle": null,
+      "description": "Made by @badbatchapparel on Etsy",
+      "handle": "laceup",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/12777892/r/il/b942ae/1551505739/il_1588xN.1551505739_78tq.jpg",
+        "https://i.etsystatic.com/12777892/r/il/e5a7e3/1551505737/il_1588xN.1551505737_4xn8.jpg",
+        "https://i.etsystatic.com/12777892/r/il/f95eab/1551505789/il_1588xN.1551505789_ihsn.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 5400
+            },
+            {
+              "currency_code": "usd",
+              "amount": 5400
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Santa Snoop",
+      "subtitle": null,
+      "description": "Made by @TravisChapmanArt on Etsy",
+      "handle": "santa",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/7545759/r/il/caaddf/2749184546/il_1588xN.2749184546_fbpj.jpg",
+        "https://i.etsystatic.com/7545759/r/il/f11323/2749184524/il_1588xN.2749184524_pfvs.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 120000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 120000
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Blood Type OG",
+      "subtitle": null,
+      "description": "Made by @TravisChapmanArt on Etsy",
+      "handle": "bloodtype",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/7545759/r/il/c1ef53/4136212124/il_1588xN.4136212124_lh3t.jpg",
+        "https://i.etsystatic.com/7545759/r/il/159961/4136222072/il_1588xN.4136222072_jfy5.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 110000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 110000
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 1,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Felt it Cap",
+      "subtitle": null,
+      "description": "Made by @luciarti on Etsy",
+      "handle": "capcap",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/10871148/r/il/6044db/3449388641/il_1588xN.3449388641_2rcz.jpg",
+        "https://i.etsystatic.com/10871148/r/il/4df12e/3449388823/il_1588xN.3449388823_eafu.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3405
+            },
+            {
+              "currency_code": "usd",
+              "amount": 3405
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 1,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Halftime Knit",
+      "subtitle": null,
+      "description": "Made by @SpinAYam on Etsy",
+      "handle": "halftime",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/19332891/r/il/babf83/3770940749/il_1588xN.3770940749_1r7a.jpg",
+        "https://i.etsystatic.com/19332891/r/il/9ceb3a/3764811247/il_1588xN.3764811247_18nf.jpg",
+        "https://i.etsystatic.com/19332891/r/il/163437/3717222650/il_1588xN.3717222650_qvwu.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 6600
+            },
+            {
+              "currency_code": "usd",
+              "amount": 6600
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 1,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Bust Candle",
+      "subtitle": null,
+      "description": "Made by @SculptureStuffCrafts on Etsy",
+      "handle": "bustcandle",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/32548697/r/il/5a15bd/3473228519/il_1588xN.3473228519_4c7w.jpg",
+        "https://i.etsystatic.com/32548697/r/il/3dfaff/3425550174/il_1588xN.3425550174_k1kq.jpg",
+        "https://i.etsystatic.com/32548697/r/il/3d7ef8/3425550178/il_1588xN.3425550178_gi01.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 2950
+            },
+            {
+              "currency_code": "usd",
+              "amount": 2950
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 1,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Rapping Paper",
+      "subtitle": null,
+      "description": "Made by @TheCreatorPage on Etsy",
+      "handle": "wrapping",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/18960103/r/il/56e75a/4304473249/il_1588xN.4304473249_d8cz.jpg",
+        "https://i.etsystatic.com/18960103/r/il/034a5e/4320820887/il_1588xN.4320820887_cyww.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 1040
+            },
+            {
+              "currency_code": "usd",
+              "amount": 1040
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 1,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Birthday Card",
+      "subtitle": null,
+      "description": "Made by @TheCreatorPage on Etsy",
+      "handle": "birthdaycard",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/18960103/r/il/38c5e8/4317129579/il_1588xN.4317129579_qn17.jpg",
+        "https://i.etsystatic.com/18960103/r/il/bde03d/4291858368/il_1588xN.4291858368_mug0.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 360
+            },
+            {
+              "currency_code": "usd",
+              "amount": 360
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 1,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Keep it crackin like pistachios",
+      "subtitle": null,
+      "description": "Made by @DefiantPigmentsArt on Etsy",
+      "handle": "cracking",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/26973495/r/il/921bed/3021036031/il_1588xN.3021036031_n6k9.jpg",
+        "https://i.etsystatic.com/26973495/r/il/73ce64/2973324268/il_1588xN.2973324268_m8as.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 14390
+            },
+            {
+              "currency_code": "usd",
+              "amount": 14390
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 1,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Vintage Inspired Graphic Rap Tee",
+      "subtitle": null,
+      "description": "Made by @AestheticAppealUS on Etsy",
+      "handle": "appeal",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/39843740/r/il/3236ca/4474474518/il_1588xN.4474474518_1464.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 2100
+            },
+            {
+              "currency_code": "usd",
+              "amount": 2100
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 1,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Buzz Shirt",
+      "subtitle": null,
+      "description": "Made by @DukeDesignGoods on Etsy",
+      "handle": "buzz",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/38517981/r/il/0f106e/4435664997/il_1588xN.4435664997_1h52.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 2844
+            },
+            {
+              "currency_code": "usd",
+              "amount": 2844
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 1,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Lil Snoop Custom Funko",
+      "subtitle": null,
+      "description": "Made by @BAcraftshop on Etsy",
+      "handle": "funko",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/22287434/r/il/fe40d1/3273124021/il_1588xN.3273124021_yug6.jpg",
+        "https://i.etsystatic.com/22287434/r/il/05936e/3273124679/il_1588xN.3273124679_mmtb.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 12744
+            },
+            {
+              "currency_code": "usd",
+              "amount": 12744
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 1,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Vintage Rollin Down the Street Smokin Indo Doggie Style",
+      "subtitle": null,
+      "description": "Sold by @RadDudes on Etsy",
+      "handle": "rollin",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/15194251/r/il/d1b7d4/4500295413/il_1588xN.4500295413_nf86.jpg",
+        "https://i.etsystatic.com/15194251/r/il/cd8a45/4500289111/il_1588xN.4500289111_lw96.jpg",
+        "https://i.etsystatic.com/15194251/r/il/80f9d4/4452936998/il_1588xN.4452936998_1e53.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 20000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 20000
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Cat",
+      "subtitle": null,
+      "description": "Made by @RarelyMad on Etsy",
+      "handle": "cat",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/16390832/r/il/660af8/3668457626/il_1588xN.3668457626_ikc3.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 2519
+            },
+            {
+              "currency_code": "usd",
+              "amount": 2519
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 1,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Museum-Quality",
+      "subtitle": null,
+      "description": "Sold by @AestheticsFactory on Etsy",
+      "handle": "museum",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/9075511/r/il/61f511/4229007279/il_1588xN.4229007279_bzo1.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 4320
+            },
+            {
+              "currency_code": "usd",
+              "amount": 4320
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Psychedelic Snoop Head",
+      "subtitle": null,
+      "description": "Made by @M3is3D on Etsy",
+      "handle": "psychedelic",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/18378169/r/il/eb0094/4216129650/il_1588xN.4216129650_qsei.jpg",
+        "https://i.etsystatic.com/18378169/r/il/98eacb/4263786711/il_1588xN.4263786711_brpk.jpg",
+        "https://i.etsystatic.com/18378169/r/il/3b4530/4216129646/il_1588xN.4216129646_l1w8.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 5399
+            },
+            {
+              "currency_code": "usd",
+              "amount": 5399
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Punch Needle Wall Hanging",
+      "subtitle": null,
+      "description": "Made by @ShacksonDesigns on Etsy",
+      "handle": "punchneedle",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/33862587/r/il/863f03/4447496774/il_1588xN.4447496774_db9s.jpg",
+        "https://i.etsystatic.com/33862587/r/il/c2c1f8/4447503378/il_1588xN.4447503378_j2k8.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3153
+            },
+            {
+              "currency_code": "usd",
+              "amount": 3153
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Organic Baby Rattle",
+      "subtitle": null,
+      "description": "Made by @Tambourbattant on Etsy",
+      "handle": "babyrattle",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/13711098/r/il/40a37c/3178964381/il_1588xN.3178964381_iozq.jpg",
+        "https://i.etsystatic.com/13711098/r/il/d28614/3178953919/il_1588xN.3178953919_ktsj.jpg",
+        "https://i.etsystatic.com/13711098/r/il/bfbde2/3178954123/il_1588xN.3178954123_ovsa.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3750
+            },
+            {
+              "currency_code": "usd",
+              "amount": 3750
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Gin & Juice Rug",
+      "subtitle": null,
+      "description": "Made by @musicdope80s ",
+      "handle": "gin",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://bafybeihe5cx2m35dw5r7de5vbqtmak5mukpaprffckgw3f3d57qkety7qe.ipfs.w3s.link/Screenshot_2022-12-27_at_19.01.39_61.png"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 2950
+            },
+            {
+              "currency_code": "usd",
+              "amount": 2950
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Classical Snoop",
+      "subtitle": null,
+      "description": "Made by @cheatingly on DeviantArt",
+      "handle": "oilpaintclassic",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://bafybeicl3bo5okwxcmbbtz4uphapee7wqdvnud2mx7lyry5urp4225wwke.ipfs.w3s.link/Screenshot_2022-12-27_at_19.06.05_61.png"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 15950
+            },
+            {
+              "currency_code": "usd",
+              "amount": 15950
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Goof Dawg",
+      "subtitle": null,
+      "description": "Made by @artvandalart Art Vandal",
+      "handle": "goofdawg",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://bafybeih6sl7nyxpnm4morn6gxzrlfdw7oih57v7cg5c7h5itgpvsmbawu4.ipfs.w3s.link/goofdawg.png",
+        "https://bafybeiao3cukdtvsgtndshc4fa4qeaw5fp26rgtjzdg4wfbwsen7jid5oa.ipfs.w3s.link/Screenshot%202022-12-28%20at%2017.16.36.png",
+        "https://bafybeiawkdfubszz22yhqfllcw4llboor2yyvbiakty5i23wdibpoks5du.ipfs.w3s.link/Screenshot%202022-12-28%20at%2017.16.43.png"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 50000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 50000
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Goof Dawg Shirt",
+      "subtitle": null,
+      "description": "Made by @artvandalart Art Vandal",
+      "handle": "goofdawgshirt",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://bafybeihkj6akaazkzdec4vp7e3mvlnk256xhw44zaga7vdr5bqz55cqon4.ipfs.w3s.link/shirtsnoop.png"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 2450
+            },
+            {
+              "currency_code": "usd",
+              "amount": 2450
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "General Dogg",
+      "subtitle": null,
+      "description": "Made by musicdope80s",
+      "handle": "general",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://bafybeih4kutv76dwzkjwvkoz67tiqtrtav3o7vzp3mivnhmnkktxq7ov4i.ipfs.w3s.link/Screenshot_2022-12-27_at_19.17.51_76.png"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 2000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 2000
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Handdrawn Shirt",
+      "subtitle": null,
+      "description": "Made by @SEXYRECORDS on Etsy",
+      "handle": "handdrawnshirt",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://uploads-ssl.webflow.com/638f3688a8461565f917a547/638f486988ef1858c7cfca59_Screenshot%202022-12-06%20at%2014.49.04.png"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 1700
+            },
+            {
+              "currency_code": "usd",
+              "amount": 1700
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "When u wake up ",
+      "subtitle": null,
+      "description": "Made by @SAUCYMUSE on Etsy",
+      "handle": "wakeup",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/27900070/r/il/42b071/4144832326/il_1588xN.4144832326_5w24.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 441
+            },
+            {
+              "currency_code": "usd",
+              "amount": 441
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Original Gangsta Wrapper",
+      "subtitle": null,
+      "description": "sold by @Promoteyourtees on Etsy",
+      "handle": "gangstawrapper",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://i.etsystatic.com/16603459/r/il/252714/2132956517/il_1588xN.2132956517_15ih.jpg",
+        "https://i.etsystatic.com/16603459/r/il/5dac53/2132956659/il_1588xN.2132956659_i7lh.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "S",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3500
+            },
+            {
+              "currency_code": "usd",
+              "amount": 3500
+            }
+          ],
+          "options": [
+            {
+              "value": "S"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "M",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3500
+            },
+            {
+              "currency_code": "usd",
+              "amount": 3500
+            }
+          ],
+          "options": [
+            {
+              "value": "M"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "L",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3500
+            },
+            {
+              "currency_code": "usd",
+              "amount": 3500
+            }
+          ],
+          "options": [
+            {
+              "value": "L"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "XL",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3500
+            },
+            {
+              "currency_code": "usd",
+              "amount": 3500
+            }
+          ],
+          "options": [
+            {
+              "value": "XL"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Through the hizzle",
+      "subtitle": null,
+      "description": "sold by @BanterKing on Etsy",
+      "handle": "throughthehizzle",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://i.etsystatic.com/18807999/r/il/081897/3366785682/il_1588xN.3366785682_exa9.jpg",
+        "https://i.etsystatic.com/18807999/r/il/aaa1c3/3414468193/il_1588xN.3414468193_e7kz.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "S",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3500
+            },
+            {
+              "currency_code": "usd",
+              "amount": 3500
+            }
+          ],
+          "options": [
+            {
+              "value": "S"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "M",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3500
+            },
+            {
+              "currency_code": "usd",
+              "amount": 3500
+            }
+          ],
+          "options": [
+            {
+              "value": "M"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "L",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3500
+            },
+            {
+              "currency_code": "usd",
+              "amount": 3500
+            }
+          ],
+          "options": [
+            {
+              "value": "L"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "XL",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3500
+            },
+            {
+              "currency_code": "usd",
+              "amount": 3500
+            }
+          ],
+          "options": [
+            {
+              "value": "XL"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Snoop 3D Sculpture",
+      "subtitle": null,
+      "description": "Made by Gabriel Soares on Deviantart",
+      "handle": "sculpture",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://cdnb.artstation.com/p/assets/images/images/031/000/405/large/gabriel-soares-snoop-final-render.jpg?1602273860",
+        "https://cdnb.artstation.com/p/assets/images/images/031/000/401/large/gabriel-soares-snoop-final-render-2.jpg?1602273216",
+        "https://cdnb.artstation.com/p/assets/images/images/031/000/397/large/gabriel-soares-captura-de-tela-2020-10-09-as-16-38-54.jpg?1602273203"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7000
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Buddha",
+      "subtitle": null,
+      "description": "Made on Etsy @Bluprints3D",
+      "handle": "buddha",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/20035847/r/il/89f387/2923903012/il_1588xN.2923903012_9t6k.jpg",
+        "https://i.etsystatic.com/20035847/r/il/3032ec/2726960257/il_1588xN.2726960257_o2vz.jpg",
+        "https://i.etsystatic.com/20035847/r/il/789de7/2726959717/il_1588xN.2726959717_7mou.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 4500
+            },
+            {
+              "currency_code": "usd",
+              "amount": 4570
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "King Snoop",
+      "subtitle": null,
+      "description": "Made by @CulturaFineArts on Etsy",
+      "handle": "king",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/38998237/r/il/237d43/4428690793/il_1588xN.4428690793_6udb.jpg",
+        "https://i.etsystatic.com/38998237/r/il/ef0577/4419448361/il_1588xN.4419448361_55gy.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 25000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 25000
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "SNOOP 2077",
+      "subtitle": null,
+      "description": "Made by @HUMANSandROBOTS on Etsy",
+      "handle": "futture",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://i.etsystatic.com/38794948/r/il/8f20a4/4416801241/il_1588xN.4416801241_gxrr.jpg",
+        "https://i.etsystatic.com/38794948/r/il/38701f/4416801199/il_1588xN.4416801199_2e1m.jpg"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 8001
+            },
+            {
+              "currency_code": "usd",
+              "amount": 8001
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "3Dee",
+      "subtitle": null,
+      "description": "Made by Alex Alvarado @babygotbackhead on Deviantart",
+      "handle": "threedeee",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://cdnb.artstation.com/p/assets/images/images/025/641/785/large/alex-alvarado-459229ed-e71a-4a7c-a1e0-1ced91dc84e6.jpg?1586448867"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 16000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 16000
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Doggystyle Joggers",
+      "subtitle": null,
+      "description": "sold on snoopermarket.com",
+      "handle": "doogystylejogger",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1713/7119/products/Joggerssquare_1080x.jpg?v=1644545843",
+        "https://cdn.shopify.com/s/files/1/1713/7119/products/IMG_3129_007e8b1b-4961-4e9c-97e5-90f84ec6a08a_1080x.jpg?v=1646611709"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "S",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 9500
+            },
+            {
+              "currency_code": "usd",
+              "amount": 9500
+            }
+          ],
+          "options": [
+            {
+              "value": "S"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "M",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 9500
+            },
+            {
+              "currency_code": "usd",
+              "amount": 9500
+            }
+          ],
+          "options": [
+            {
+              "value": "M"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "L",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 9500
+            },
+            {
+              "currency_code": "usd",
+              "amount": 9500
+            }
+          ],
+          "options": [
+            {
+              "value": "L"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "XL",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 9500
+            },
+            {
+              "currency_code": "usd",
+              "amount": 9500
+            }
+          ],
+          "options": [
+            {
+              "value": "XL"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "DOGGYSTYLE BOMBER JACKET",
+      "subtitle": null,
+      "description": "sold on snoopermarket.com",
+      "handle": "doogystylebomber",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1713/7119/products/T5D_0320.jpg.sq1_ba2f7e30-c566-449e-ad18-d407f3a30a43_1080x.jpg?v=1646344412",
+        "https://cdn.shopify.com/s/files/1/1713/7119/products/Doggystyle-Bomber-Back_9cd138e2-7c57-43dd-b6ce-1714e69e25d8_1080x.jpg?v=1646344412",
+        "https://cdn.shopify.com/s/files/1/1713/7119/products/IMG_3127_1080x.jpg?v=1646611096"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "S",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 40000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 40000
+            }
+          ],
+          "options": [
+            {
+              "value": "S"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "M",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 40000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 40000
+            }
+          ],
+          "options": [
+            {
+              "value": "M"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "L",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 40000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 40000
+            }
+          ],
+          "options": [
+            {
+              "value": "L"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "XL",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 40000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 40000
+            }
+          ],
+          "options": [
+            {
+              "value": "XL"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Doggystyle Shorts",
+      "subtitle": null,
+      "description": "sold on snoopermarket.com",
+      "handle": "doggystyleshorts",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1713/7119/products/T5D_0376_1080x.jpg?v=1646689150",
+        "https://cdn.shopify.com/s/files/1/1713/7119/products/T5D_0382_1080x.jpg?v=1646689150",
+        "https://cdn.shopify.com/s/files/1/1713/7119/products/IMG_3130_1080x.jpg?v=1646689150"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "S",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7500
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7500
+            }
+          ],
+          "options": [
+            {
+              "value": "S"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "M",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7500
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7500
+            }
+          ],
+          "options": [
+            {
+              "value": "M"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "L",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7500
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7500
+            }
+          ],
+          "options": [
+            {
+              "value": "L"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "XL",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7500
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7500
+            }
+          ],
+          "options": [
+            {
+              "value": "XL"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Doggystyle Bag",
+      "subtitle": null,
+      "description": "sold on snoopermarket.com",
+      "handle": "doggystylebag",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1713/7119/products/doggystylebag_1080x.jpg?v=1655511097",
+        "https://cdn.shopify.com/s/files/1/1713/7119/products/snoopbag_1080x.jpg?v=1655511097"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "S",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 30000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 30000
+            }
+          ],
+          "options": [
+            {
+              "value": "S"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "M",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 30000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 30000
+            }
+          ],
+          "options": [
+            {
+              "value": "M"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "L",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 30000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 30000
+            }
+          ],
+          "options": [
+            {
+              "value": "L"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "XL",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 30000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 30000
+            }
+          ],
+          "options": [
+            {
+              "value": "XL"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Brick Doggystyle Joggers",
+      "subtitle": null,
+      "description": "sold on snoopermarket.com",
+      "handle": "doggystylebrickjoggers",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1713/7119/products/T5D_0392_1080x.jpg?v=1647629823",
+        "https://cdn.shopify.com/s/files/1/1713/7119/products/T5D_0398_1080x.jpg?v=1647975234"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "S",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 15000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 15000
+            }
+          ],
+          "options": [
+            {
+              "value": "S"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "M",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 15000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 15000
+            }
+          ],
+          "options": [
+            {
+              "value": "M"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "L",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 15000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 15000
+            }
+          ],
+          "options": [
+            {
+              "value": "L"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "XL",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 15000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 15000
+            }
+          ],
+          "options": [
+            {
+              "value": "XL"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Brick Doggystyle Hoodie",
+      "subtitle": null,
+      "description": "sold on snoopermarket.com",
+      "handle": "doggystylebrickhoodie",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1713/7119/products/T5D_0361_1080x.jpg?v=1647975558",
+        "https://cdn.shopify.com/s/files/1/1713/7119/products/T5D_0367_1080x.jpg?v=1647975558"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "S",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 11000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 11000
+            }
+          ],
+          "options": [
+            {
+              "value": "S"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "M",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 11000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 11000
+            }
+          ],
+          "options": [
+            {
+              "value": "M"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "L",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 11000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 11000
+            }
+          ],
+          "options": [
+            {
+              "value": "L"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "XL",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 11000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 11000
+            }
+          ],
+          "options": [
+            {
+              "value": "XL"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "B.O.D.R. x Crooks Green Crew",
+      "subtitle": null,
+      "description": "sold on snoopermarket.com",
+      "handle": "bodrcrookscrew",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1713/7119/products/2XC01109_1080x.jpg?v=1652644462"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "S",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7800
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7800
+            }
+          ],
+          "options": [
+            {
+              "value": "S"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "M",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7800
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7800
+            }
+          ],
+          "options": [
+            {
+              "value": "M"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "L",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7800
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7800
+            }
+          ],
+          "options": [
+            {
+              "value": "L"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "XL",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7800
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7800
+            }
+          ],
+          "options": [
+            {
+              "value": "XL"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Tha Doggfather Crewneck",
+      "subtitle": null,
+      "description": "sold on snoopermarket.com",
+      "handle": "doggfathercrew",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1713/7119/products/DoggfatherCrew_1080x.jpg?v=1669156224"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "S",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7800
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7800
+            }
+          ],
+          "options": [
+            {
+              "value": "S"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "M",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7800
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7800
+            }
+          ],
+          "options": [
+            {
+              "value": "M"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "L",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7800
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7800
+            }
+          ],
+          "options": [
+            {
+              "value": "L"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "XL",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7800
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7800
+            }
+          ],
+          "options": [
+            {
+              "value": "XL"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Limited Edition: Death Row Deez Nutz Hoodie",
+      "subtitle": null,
+      "description": "sold on snoopermarket.com",
+      "handle": "deeznuts",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1713/7119/products/DeezNutsHoodieBlack_1080x.jpg?v=1670960807"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "S",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7800
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7800
+            }
+          ],
+          "options": [
+            {
+              "value": "S"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "M",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7800
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7800
+            }
+          ],
+          "options": [
+            {
+              "value": "M"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "L",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7800
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7800
+            }
+          ],
+          "options": [
+            {
+              "value": "L"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "XL",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7800
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7800
+            }
+          ],
+          "options": [
+            {
+              "value": "XL"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "Limited Edition: Death Row G'z Up Hoodie",
+      "subtitle": null,
+      "description": "sold on snoopermarket.com",
+      "handle": "gzuphoodie",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1713/7119/products/bf943f3c-f596-445e-bb84-6cac69a6fe73_cc5fc4f0-1ba2-46bf-ac1c-87be08271f6a_1080x.jpg?v=1670198626"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "S",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7800
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7800
+            }
+          ],
+          "options": [
+            {
+              "value": "S"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "M",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7800
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7800
+            }
+          ],
+          "options": [
+            {
+              "value": "M"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "L",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7800
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7800
+            }
+          ],
+          "options": [
+            {
+              "value": "L"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "XL",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 7800
+            },
+            {
+              "currency_code": "usd",
+              "amount": 7800
+            }
+          ],
+          "options": [
+            {
+              "value": "XL"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "CHAMPIONSHIP RING",
+      "subtitle": null,
+      "description": "sold on kingice.com",
+      "handle": "championshipring",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1102/7446/products/death-row-records-x-king-ice-championship-ring-king-ice-35272482193583_540x.jpg?v=1666107955",
+        "https://cdn.shopify.com/s/files/1/1102/7446/products/death-row-records-x-king-ice-championship-ring-king-ice-35272482062511.jpg?v=1666107958",
+        "https://cdn.shopify.com/s/files/1/1102/7446/products/death-row-records-x-king-ice-championship-ring-king-ice-35272482029743.jpg?v=1666107951"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 10100
+            },
+            {
+              "currency_code": "usd",
+              "amount": 10100
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "LOGO STUD EARRINGS",
+      "subtitle": null,
+      "description": "sold on kingice.com",
+      "handle": "studearrings",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1102/7446/products/death-row-records-x-king-ice-logo-stud-earrings-sterling-silver-14k-gold-1-3-king-ice-35274164961455_1296x.jpg?v=1666129194"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 5000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 5000
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "EXECUTIVE CASSETTE NECKLACE",
+      "subtitle": null,
+      "description": "sold on kingice.com",
+      "handle": "cassettenecklace",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1102/7446/products/death-row-records-x-king-ice-executive-cassette-necklace-king-ice-30594126938287_540x.jpg?v=1645712874",
+        "https://cdn.shopify.com/s/files/1/1102/7446/products/death-row-records-x-king-ice-executive-cassette-necklace-king-ice-30594239758511_540x.jpg?v=1645663019"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 40000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 40000
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "LA SKELETON CANNABIS BIBLE STASH NECKLACE",
+      "subtitle": null,
+      "description": "sold on kingice.com",
+      "handle": "biblenecklace",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1102/7446/products/death-row-x-king-ice-la-skeleton-cannabis-bible-stash-necklace-king-ice-30534741360815_540x.jpg?v=1645730886",
+        "https://cdn.shopify.com/s/files/1/1102/7446/products/death-row-x-king-ice-la-skeleton-cannabis-bible-stash-necklace-king-ice-30534927089839_540x.jpg?v=1645697587",
+        "https://cdn.shopify.com/s/files/1/1102/7446/products/death-row-x-king-ice-la-skeleton-cannabis-bible-stash-necklace-king-ice-30534741688495_540x.jpg?v=1645697219"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 15000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 15000
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "SPINNER MEDALLION NECKLACE",
+      "subtitle": null,
+      "description": "sold on kingice.com",
+      "handle": "spinnermedallion",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1102/7446/products/death-row-records-x-king-ice-spinner-medallion-necklace-white-gold-2-9-king-ice-30597563613359_540x.jpg?v=1645661585",
+        "https://cdn.shopify.com/s/files/1/1102/7446/products/death-row-records-x-king-ice-spinner-medallion-necklace-king-ice-30597606998191_540x.jpg?v=1645689852"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 15000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 15000
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "DEATH ROW MONEY CLIP",
+      "subtitle": null,
+      "description": "sold on kingice.com",
+      "handle": "moneyclip",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1102/7446/products/death-row-records-x-king-ice-death-row-money-clip-king-ice-30546687754415_540x.jpg?v=1645710548",
+        "https://cdn.shopify.com/s/files/1/1102/7446/products/death-row-records-x-king-ice-death-row-money-clip-14k-gold-king-ice-30589154721967_540x.jpg?v=1645721515"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 10000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 10000
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "DEATH ROW TWO-FINGER RING",
+      "subtitle": null,
+      "description": "sold on kingice.com",
+      "handle": "twofinger",
+      "is_giftcard": false,
+      "weight": 10,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1102/7446/products/death-row-records-x-king-ice-death-row-two-finger-ring-sterling-silver-14k-gold-one-size-king-ice-30552466227375_540x.jpg?v=1645654391",
+        "https://cdn.shopify.com/s/files/1/1102/7446/products/death-row-records-x-king-ice-death-row-two-finger-ring-king-ice-30550101262511_540x.jpg?v=1645733041"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 10000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 10000
             }
           ],
           "options": [
