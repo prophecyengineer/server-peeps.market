@@ -5,10 +5,10 @@
   "author": "Sebastian Rindom <skrindom@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "seed": "medusa seed -f ./data/seed.json",
+    "seed": "medusa git push heroku master -f ./data/seed.json",
     "build": "babel src -d dist --extensions \".ts,.js\"",
     "start": "medusa develop",
-    "heroku-postbuild": "medusa migrations run",
+    "heroku-postbuild": "medusa migrations run && medusa seed -f ./data/seed.json",
     "start:watch": "nodemon --watch './src/**/*.ts' --exec 'npm run build && NODE_ENV=development node ./dist/main.js'",
     "start:prod": "npm run build && NODE_ENV=production node dist/main"
   },
