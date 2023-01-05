@@ -5,6 +5,12 @@
       "usd"
     ]
   },
+  "users": [
+    {
+      "email": "admin@medusa-test.com",
+      "password": "supersecret"
+    }
+  ],
   "regions": [
     {
       "id": "test-region-eu",
